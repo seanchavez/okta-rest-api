@@ -1,0 +1,11 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "A parts catalog",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "seanchavez",
+  "license": "ISC"
+}
