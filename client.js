@@ -2,7 +2,7 @@ require('dotenv').config();
 const request = require('request-promise');
 const btoa = require('btoa');
 
-const { ISSUER, CLIENT_ID, CLIENT_SERCET, SCOPE } = process.env;
+const { ISSUER, CLIENT_ID, CLIENT_SECRET, SCOPE } = process.env;
 
 const [, , uri, method, body] = process.argv;
 if (!uri) {
