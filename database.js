@@ -1,6 +1,5 @@
 const Sequelize = require('sequelize')
-const epilogue = requ
-ire('epilogue')
+const epilogue = require('epilogue')
 
 const database = new Sequelize({
   dialect: 'sqlite',
